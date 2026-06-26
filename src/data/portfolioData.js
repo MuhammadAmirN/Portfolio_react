@@ -43,37 +43,97 @@ export const skills = [
   },
 ]
 
-// Proyek yang ditampilkan. Ganti dengan proyek Anda sendiri.
+// Proyek yang ditampilkan (diambil dari repository GitHub Anda).
 // `image` boleh kosong (akan pakai gradient placeholder otomatis).
 export const projects = [
   {
-    title: 'Aplikasi To-Do List',
+    title: 'Dashboard IoT - Bandul Matematis',
     description:
-      'Aplikasi manajemen tugas dengan fitur tambah, edit, hapus, dan filter. Dibuat untuk melatih state management di React.',
-    tags: ['React', 'Tailwind CSS', 'LocalStorage'],
+      'Dashboard untuk proyek IoT "alat praktikum bandul matematis berbasis IoT". Menampilkan dan mengelola data sensor menggunakan Laravel dengan database MySQL.',
+    tags: ['Laravel', 'MySQL', 'IoT', 'Dashboard'],
     image: '',
-    demo: 'https://example.com',
-    repo: 'https://github.com/username/todo-app',
+    demo: '',
+    repo: 'https://github.com/MuhammadAmirN/Dashboard_IoT',
     featured: true,
   },
   {
-    title: 'Landing Page Produk',
+    title: 'Sistem Laundry (Laravel)',
     description:
-      'Landing page responsif untuk produk fiktif, fokus pada desain modern, animasi halus, dan konversi.',
-    tags: ['HTML', 'CSS', 'JavaScript', 'UI/UX'],
+      'Sistem manajemen laundry berbasis Laravel dengan fitur CRUD, manajemen role pengguna, dan laporan keuangan.',
+    tags: ['Laravel', 'MySQL', 'CRUD', 'Auth'],
     image: '',
-    demo: 'https://example.com',
-    repo: 'https://github.com/username/landing-page',
+    demo: '',
+    repo: 'https://github.com/MuhammadAmirN/loundry_mataram-laravel',
     featured: true,
   },
   {
-    title: 'Dashboard Cuaca',
+    title: 'Enkripsi Data Hybrid (RSA + AES)',
     description:
-      'Dashboard yang menampilkan data cuaca real-time dari API publik, lengkap dengan pencarian kota dan grafik.',
-    tags: ['React', 'REST API', 'Chart'],
+      'Implementasi kriptografi hybrid yang mengombinasikan algoritma RSA dan AES untuk enkripsi data yang lebih aman.',
+    tags: ['Python', 'Cryptography', 'RSA', 'AES'],
     image: '',
-    demo: 'https://example.com',
-    repo: 'https://github.com/username/weather-dashboard',
+    demo: '',
+    repo: 'https://github.com/MuhammadAmirN/membuat-enkripsi-data',
+    featured: true,
+  },
+  {
+    title: 'Reservasi Cafe',
+    description:
+      'Aplikasi web reservasi meja cafe menggunakan PHP untuk mempermudah pelanggan melakukan pemesanan tempat.',
+    tags: ['PHP', 'MySQL', 'Web'],
+    image: '',
+    demo: '',
+    repo: 'https://github.com/MuhammadAmirN/reservasi_cafe',
+    featured: false,
+  },
+  {
+    title: 'Pemesanan Tiket Bola',
+    description:
+      'Aplikasi pemesanan tiket pertandingan sepak bola dengan Python, mencakup booking, jadwal event, dan pembayaran.',
+    tags: ['Python', 'Booking', 'Payment'],
+    image: '',
+    demo: '',
+    repo: 'https://github.com/MuhammadAmirN/pemesanan_tiket_bola',
+    featured: false,
+  },
+  {
+    title: 'Manajemen Data Mahasiswa',
+    description:
+      'Aplikasi manajemen data mahasiswa/siswa menggunakan Flask dengan database SQLite (operasi CRUD lengkap).',
+    tags: ['Python', 'Flask', 'SQLite', 'CRUD'],
+    image: '',
+    demo: '',
+    repo: 'https://github.com/MuhammadAmirN/MANAJEMEN-DATA-MAHASISWA-MENGGUNAKAN-FLASK-DAN-SQlite',
+    featured: false,
+  },
+  {
+    title: 'Pemesanan Laundry',
+    description:
+      'Aplikasi pemesanan laundry berbasis Python dengan fitur penilaian (kualitas, layanan, harga, waktu) dan perhitungan total pembayaran otomatis.',
+    tags: ['Python', 'CLI', 'Payment'],
+    image: '',
+    demo: '',
+    repo: 'https://github.com/MuhammadAmirN/pemesanan-loundry',
+    featured: false,
+  },
+  {
+    title: 'WhatsApp Bot',
+    description:
+      'Bot WhatsApp otomatis yang dibangun menggunakan Node.js dan JavaScript.',
+    tags: ['Node.js', 'JavaScript', 'Automation'],
+    image: '',
+    demo: '',
+    repo: 'https://github.com/MuhammadAmirN/botWA',
+    featured: false,
+  },
+  {
+    title: 'Landing Page (HTML & CSS)',
+    description:
+      'Latihan membangun landing page responsif menggunakan HTML dan CSS murni dengan fokus pada layout dan styling.',
+    tags: ['HTML', 'CSS', 'Responsive'],
+    image: '',
+    demo: '',
+    repo: 'https://github.com/MuhammadAmirN/landing-pages',
     featured: false,
   },
 ]
